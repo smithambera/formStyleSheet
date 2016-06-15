@@ -1,0 +1,106 @@
+* {
+    font-family: monospace;
+}
+header {
+    background-image: url(https://www.theironyard.com/content/dam/theironyard/stories/overview/about-h-1-web.jpg);
+    height: 370px;
+    margin: 0px;
+    border-bottom: 3px solid rgb(175, 254, 230);
+}
+.p-header {
+    color: rgb(175, 254, 230);
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+}
+.p-header-date-time {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin: 0px;
+}
+main p {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    font-size: 15px;
+    margin-top: 10px;
+}
+form {
+    margin: auto;
+    max-width: 700px;
+    font-size: 15px;
+    padding: 30px;
+    margin-top: 25px;
+    border: 1px solid black;
+    border-radius: 1em;
+    background-color: rgba(105, 116, 122, 0.4);
+}
+form div+ div {
+    margin-top: 10px;
+}
+label {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+input, textarea {
+    display: inline-block;
+    width: 65%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: left;
+    height: 25px;
+}
+input[type=radio] {
+    width: auto;
+    vertical-align: bottom;
+    outline: none;
+}
+*:focus {
+    outline: 3px solid rgb(175, 254, 230);
+}
+#referrer {
+    width: 65%;
+}
+textarea {
+    /* To properly align multiline text fields with their labels */
+    vertical-align: top;
+    /* To give enough room to type some text */
+    height: 55px;
+    /* To allow users to resize any textarea vertically
+       It does not work on all browsers */
+    resize: vertical;
+}
+.button {
+    text-align: center;
+}
+button {
+    padding: 10px 30px;
+    background-color: rgb(175, 254, 230);
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-top: 15px;
+}
+.yes_no {
+    display: inline-block;
+    text-align: left;
+    width: 65%;
+}
+.yes_no label {
+    width: auto;
+}
+.paragraph {
+    margin: 30px 0px;
+    padding-bottom: 5px;
+}
+h1 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    font-size: 10px;
+    margin: 25px;
+}
